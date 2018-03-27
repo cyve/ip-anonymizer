@@ -1,0 +1,21 @@
+{
+    "name": "cyve/php-ip-anonymizer",
+    "description": "IP anonymizer service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cyril Vermandé",
+            "email": "cyril@cyrilwebdesign.com",
+            "homepage": "http://www.cyrilwebdesign.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Cyve\\IpAnonymizer\\" : "src/" }
+    },
+    "autoload-dev" : {
+        "psr-4": { "Cyve\\IpAnonymizer\\Test\\" : "tests/" }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
