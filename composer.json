@@ -1,5 +1,5 @@
 {
-    "name": "cyve/php-ip-anonymizer",
+    "name": "cyve/ip-anonymizer",
     "description": "IP anonymizer service",
     "license": "MIT",
     "authors": [
