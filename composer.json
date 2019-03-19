@@ -1,11 +1,11 @@
 {
     "name": "cyve/ip-anonymizer",
     "description": "IP anonymizer service",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Cyril Vermandé",
-            "email": "cyril@cyrilwebdesign.com",
             "homepage": "http://www.cyrilwebdesign.com"
         }
     ],
@@ -17,5 +17,8 @@
     },
     "require": {
         "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0 || ^7.0"
     }
 }
